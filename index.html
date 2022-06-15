@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <h1>My Temperature Calculator</h1>
+      <form>
+        <ul>
+          <li>Starting Temperature Unit</li>
+          <li>
+            <input name="temp" id="cel" type="radio" />
+            <label for="cel">Celcius</label>
+          </li>
+          <li>
+            <input name="temp" id="far" type="radio" />
+            <label for="far">Fahrenheit</label>
+          </li>
+        </ul>
+        <label for="firstTemp">Starting Temperature: </label>
+        <input type="text" id="firstTemp" />
+      </form>
+      <h2 id="newTempLabel"></h2>
+      <span id="newTemp"></span>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
